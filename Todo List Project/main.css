@@ -19,4 +19,104 @@ body {
   font-size: 1.5rem;
   background-color: var(--clr-primary);
   color: var(--clr-light);
+
+  display: grid;
+  grid:
+  "header header header header" auto
+  "...... lists  active ......" auto /
+  1fr minmax(100px, 300px) minmax(250px, 500px) 1fr;
+}
+
+.title {
+  grid-area: header;
+  text-align: center;
+  font-size: calc(7vw + 2rem);
+  font-weight: 900;
+  color: rgba(1, 0, 0, 0.5);
+  letter-spacing: -5px;
+}
+
+.all-tasks {
+  grid-area: lists;
+}
+
+.task-list {
+  font-size: 1.2rem;
+  line-height: 1.7;
+  list-style: circle;
+  padding-left: 1.1em;
+}
+
+.active-list {
+  font-weight: 800;
+}
+
+form {
+  display: flex;
+}
+
+.btn {
+  cursor: pointer;
+  background: 0;
+  border: 0;
+  padding: 0;
+  color: inherit;
+}
+
+.btn.create {
+  font-size: 1.5rem;
+  font-weight: 900;
+  margin-right: 0.25em;
+  transition: opacity 250ms ease-in;
+}
+
+.btn.create:hover {
+  opacity: 0.7;
+}
+
+.new {
+  background: transparent;
+  border: 0;
+  color: inherit;
+  border-bottom: 1px solid currentColor;
+  font-size: inherit;
+
+  order: 2;
+}
+
+.new:focus {
+  border-bottom-width: 2px;
+}
+
+.new:focus::placeholder {
+  opacity: 0.1;
+}
+
+.new.list {
+  font-size: 1.2rem;
+}
+
+.todo-list {
+--spacer: 2rem;
+
+  grid-area: active;
+  background: var(--clr-light);
+  color: var(--clr-dark);
+}
+
+.todo-header {
+  padding: var(--spacer);
+  background: #e4e4e4e4;
+}
+
+.list-title {
+  margin: 0;
+}
+
+.task-count {
+  margin: 0;
+}
+
+.todo-body {
+  padding: var(--spacer)
 }
