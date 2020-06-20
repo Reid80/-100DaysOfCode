@@ -18,11 +18,7 @@
 
     <div class="all-tasks">
       <h2 class="task-list-title">My Lists</h2>
-        <ul class="task-list" data-lists>
-          <!-- <li class="list-name active-list">Shopping</li>
-          <li class="list-name">Work</li>
-          <li class="list-name">Chores</li> -->
-        </ul>
+        <ul class="task-list" data-lists></ul>
           <form action="" data-new-list-form>
             <input
               type="text"
@@ -38,56 +34,29 @@
 
     <div class="todo-list" data-list-display-container>
       <div class="todo-header">
-        <h2 class="list-title" data-list-title>Shopping</h2>
-        <p class="task-count" data-list-count>3 tasks remaining</p>
+        <h2 class="list-title" data-list-title>Bullet Points</h2>
+        <p class="task-count" data-list-count>remaining tasks</p>
       </div>
       <div class="todo-body">
-        <div class="tasks" data-tasks>
-          <div class="task">
-            <input
-              type="checkbox"
-              id="task-1"
-              />
-              <label for="task-1">
-                <span class="custom-checkbox"></span>
-                Buy milk
-              </label>
-          </div>
-          <!-- /Task 1 -->
+        <div class="tasks" data-tasks></div>
 
-            <div class="task">
-              <input
-                type="checkbox"
-                id="task-2"
-                />
-                <label for="task-2">
-                  <span class="custom-checkbox"></span>
-                  Complete task 1
-                </label>
-            </div>
-            <!-- /Task 2 -->
-
-
-              <!-- /Task 3 -->
-
-        </div>
         <div class="new-tasks">
-          <form class="" action="index.html" method="post">
+          <form action="" data-new-task-form>
             <input
               type="text"
+              data-new-task-input
               class="new task"
               placeholder="new task name"
               aria-label="new task name"
             />
 
             <button
-              class="btn create"
-              aria-label="create new task">+</
+              class="btn create" aria-label="create new task">+</
               button>
           </form>
         </div>
         <div class="remove-tasks">
-          <button class="btn delete">Clear completed tasks</button>
+          <button class="btn delete" data-clear-complete-tasks-button>Clear completed tasks</button>
           <button class="btn delete" data-delete-list-button>Delete List</button>
         </div>
       </div>
