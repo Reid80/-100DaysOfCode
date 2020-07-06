@@ -26,11 +26,10 @@ li {
 }
 
 /* paragraph box */
-.box-p {
-  padding: 0.25rem
-  margin: 0.45rem;
-  border: none;
-  align: left;
+.box-p1 {
+  padding: 0px;
+  margin: 25px;
+  border: pink;
 
 }
 /* end paragraph box */
