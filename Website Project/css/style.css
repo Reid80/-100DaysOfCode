@@ -1,6 +1,7 @@
 /* header */
 header {
   background-color: #224d82;
+  opacity: 0.6;
 
 }
 /* end of header */
@@ -17,19 +18,36 @@ h1 {
   background-color: ;
   background-image: url(../img/night-tree.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 
 }
 
 /* end of h1 */
 li {
-  text-decoration: none;
+  font-family: serif;
+  font-weight: 800;
+  color: #fff;
+  list-style: none;
+}
+
+p {
+  font-family: serif;
+  color: #fff;
 }
 
 /* paragraph box */
 .box-p1 {
-  padding: 0px;
-  margin: 25px;
-  border: pink;
+  float: left;
+  width: 25%;
+  height: 280px;
+  padding: 20px;
+}
 
+.box-p2 {
+  float: left;
+  width: 25%;
+  height: 280px;
+  padding: 20px;
 }
 /* end paragraph box */
