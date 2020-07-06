@@ -1,6 +1,7 @@
 /* header */
 header {
-  background-color: #0ac49c;
+  background-color: #224d82;
+
 }
 /* end of header */
 
@@ -12,11 +13,24 @@ h1 {
   text-align: center;
 }
 
-#about-fs {
-  
+.box-b {
+  background-color: ;
+  background-image: url(../img/night-tree.jpg);
+  background-size: cover;
+
 }
 
 /* end of h1 */
 li {
   text-decoration: none;
 }
+
+/* paragraph box */
+.box-p {
+  padding: 0.25rem
+  margin: 0.45rem;
+  border: none;
+  align: left;
+
+}
+/* end paragraph box */
