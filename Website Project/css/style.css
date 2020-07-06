@@ -13,6 +13,7 @@ h1 {
   font-family: cursive;
   text-align: center;
 }
+/* end of h1 */
 
 body {
   background-color: ;
@@ -20,21 +21,41 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-
+  color: #fff;
 }
 
-/* end of h1 */
+a:link {
+  text-decoration: none;
+  text-align: left;
+}
+
+a:hover {
+  color: #e0ce53;
+  opacity: inherit;
+  transition: 700ms;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+
+/* Navigation list */
+
 li {
   font-family: serif;
   font-weight: 800;
   color: #fff;
   list-style: none;
 }
+/* end of Navigation list */
 
+/* paragraph */
 p {
   font-family: serif;
   color: #fff;
 }
+/* end of paragraph */
 
 /* paragraph box */
 .box-p1 {
