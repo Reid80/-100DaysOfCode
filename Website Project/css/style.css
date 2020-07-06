@@ -1,9 +1,22 @@
+/* header */
+header {
+  background-color: #0ac49c;
+}
+/* end of header */
+
+/* h1 */
 h1 {
-  font-size: 60px;
-  color: #3eab93;
+  font-size: 3rem;
+  color: #ffffff;
   font-family: cursive;
+  text-align: center;
 }
 
+#about-fs {
+  
+}
+
+/* end of h1 */
 li {
   text-decoration: none;
 }
