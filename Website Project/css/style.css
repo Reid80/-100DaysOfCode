@@ -1,7 +1,7 @@
 /* header */
 header {
-  background-color: #224d82;
-  opacity: 0.6;
+  padding: .25rem;
+  width: 600px;
 
 }
 /* end of header */
@@ -16,12 +16,11 @@ h1 {
 /* end of h1 */
 
 body {
-  background-color: #2c95c9;
-  /* background-image: url(../img/night-tree.jpg); */
+  background-image: url(../img/night-tree.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  color: #fff;
+  color: #cfccd6;
 }
 
 a {
@@ -61,6 +60,7 @@ p {
   width: 300px;
   height: 100px;
   padding: 20px;
+
 }
 
 .box-p2 {
