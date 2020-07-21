@@ -16,23 +16,21 @@ h1 {
 /* end of h1 */
 
 body {
-  background-color: ;
-  background-image: url(../img/night-tree.jpg);
+  background-color: #2c95c9;
+  /* background-image: url(../img/night-tree.jpg); */
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   color: #fff;
 }
 
+a {
+  color: #cf8a30;
+}
+
 a:link {
   text-decoration: none;
   text-align: left;
-}
-
-a:hover {
-  color: #e0ce53;
-  opacity: inherit;
-  transition: 700ms;
 }
 
 a:visited {
@@ -45,7 +43,7 @@ a:visited {
 li {
   font-family: behold;
   font-weight: 800;
-  color: #fff;
+  color: #f4f4f4;
   list-style: none;
 }
 /* end of Navigation list */
