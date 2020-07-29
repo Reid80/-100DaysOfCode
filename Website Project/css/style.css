@@ -32,6 +32,7 @@ p {
 }
 
 .columns {
+    background-color: #1D3C41;
     display: flex;
     color: #fff;
     margin: 0 auto;
@@ -39,9 +40,4 @@ p {
 
 .column {
     margin: 10px;
-
-}
-
-footer {
-    background-color: #1D3C41;
 }
