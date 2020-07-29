@@ -1,1 +1,47 @@
+body {
+    margin: 0;
+    color: #545454;
+}
 
+header {
+    background-color: #588c94;
+    padding: 40px;
+}
+
+h1 {
+    font-size: 48px;
+    text-align: center;
+    color: #fff;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+p {
+    font-size: 21px;
+}
+
+.intro {
+    margin: 100px auto;
+    width: 750px
+}
+
+.columns {
+    display: flex;
+    color: #fff;
+    margin: 0 auto;
+}
+
+.column {
+    margin: 10px;
+
+}
+
+footer {
+    background-color: #1D3C41;
+}
